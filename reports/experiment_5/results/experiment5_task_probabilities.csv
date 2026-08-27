@@ -1,0 +1,103 @@
+subject_id,task,predicted_stress_prob
+S01,Baseline,0.08449308
+S01,Real Opinion,0.9501294
+S01,TMCT,0.9454024
+S03,Baseline,0.043973334
+S03,Real Opinion,0.9533391
+S03,TMCT,0.74349827
+S04,Baseline,0.045339152
+S04,Real Opinion,0.95008975
+S04,TMCT,0.9506441
+S05,Baseline,0.055691082
+S05,Real Opinion,0.8345614
+S05,Subtract,0.95117897
+S05,TMCT,0.86875546
+S06,Baseline,0.045339152
+S06,Real Opinion,0.95270276
+S06,TMCT,0.949973
+S07,Baseline,0.043973334
+S07,Real Opinion,0.9216505
+S07,TMCT,0.94098663
+S08,Baseline,0.043973334
+S08,Real Opinion,0.882022
+S08,TMCT,0.929733
+S09,Baseline,0.04742219
+S09,Real Opinion,0.82809836
+S09,TMCT,0.582137
+S10,Baseline,0.045339152
+S10,Real Opinion,0.887065
+S10,TMCT,0.94450754
+S11,Baseline,0.049195006
+S11,Real Opinion,0.9043953
+S11,TMCT,0.93104637
+S12,Baseline,0.045741208
+S12,Real Opinion,0.78970397
+S12,TMCT,0.90918577
+S13,Baseline,0.0606442
+S13,Real Opinion,0.8463455
+S13,TMCT,0.92751044
+S14,Baseline,0.043973338
+S14,Real Opinion,0.79047
+S14,TMCT,0.2887961
+S15,Baseline,0.058450866
+S15,Real Opinion,0.94901973
+S15,TMCT,0.92919016
+S16,Baseline,0.043973334
+S16,Real Opinion,0.22799666
+S16,TMCT,0.04511152
+S17,Baseline,0.043973334
+S17,Real Opinion,0.81487685
+S17,TMCT,0.8079542
+S18,Baseline,0.045339152
+S18,Real Opinion,0.7894517
+S18,TMCT,0.39881986
+f01,Baseline,0.0462497
+f01,Opposite Opinion,0.94503486
+f01,Subtract,0.9473773
+f02,Baseline,0.06486003
+f02,Opposite Opinion,0.068923526
+f02,Subtract,0.6850851
+f03,Baseline,0.06282361
+f03,Opposite Opinion,0.8055586
+f03,Subtract,0.52491266
+f04,Baseline,0.04738788
+f04,Opposite Opinion,0.9378989
+f04,Subtract,0.5840545
+f05,Baseline,0.043973334
+f05,Opposite Opinion,0.87513465
+f05,Subtract,0.8274865
+f06,Baseline,0.050802425
+f06,Opposite Opinion,0.8652673
+f06,Subtract,0.5868341
+f08,Baseline,0.04738788
+f08,Opposite Opinion,0.9478659
+f08,Subtract,0.7723685
+f09,Baseline,0.04738788
+f09,Opposite Opinion,0.9502477
+f09,Subtract,0.27370918
+f10,Baseline,0.054416683
+f10,Opposite Opinion,0.8049839
+f10,Subtract,0.9349003
+f11,Baseline,0.04738788
+f11,Opposite Opinion,0.7894518
+f11,Subtract,0.70341736
+f12,Baseline,0.05259547
+f12,Opposite Opinion,0.7914883
+f12,Subtract,0.8174472
+f13,Baseline,0.12732765
+f13,Opposite Opinion,0.89062995
+f13,Subtract,0.90544766
+f14_b,Baseline,0.043973334
+f14_b,Opposite Opinion,0.9528869
+f15,Baseline,0.065601796
+f15,Opposite Opinion,0.8353264
+f15,Subtract,0.8168355
+f16,Baseline,0.043973334
+f16,Opposite Opinion,0.91821414
+f16,Subtract,0.8786453
+f17,Baseline,0.057675768
+f17,Opposite Opinion,0.93392974
+f17,Subtract,0.77475566
+f18,Baseline,0.043973334
+f18,Opposite Opinion,0.84968996
+f18,Subtract,0.37803754

@@ -1,0 +1,6 @@
+Cohort,N Subjects,ROC-AUC,Balanced Accuracy
+"Primary (Exclude S02, f07, f14)",34,1.0,0.9705882352941176
+"Include S02 (Exclude f07, f14)",35,1.0,0.9714285714285714
+"Include f14 (Exclude S02, f07)",34,1.0,0.9705882352941176
+Include S02 & f14 (Exclude f07),35,1.0,0.9714285714285714
+Include All (No Exclusions),36,1.0,0.9722222222222222

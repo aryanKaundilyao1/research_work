@@ -1,0 +1,5 @@
+Metric,Observed,CI_Lower,CI_Upper
+ROC-AUC,1.0,1.0,1.0
+Balanced Accuracy,0.9705882352941176,0.9264705882352942,1.0
+Sensitivity,0.9411764705882353,0.8529411764705882,1.0
+Specificity,1.0,1.0,1.0
