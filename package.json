@@ -2,8 +2,13 @@
   "name": "research-project-root",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "cd dashboard && npm run dev",
     "install-all": "cd dashboard && npm install"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }
