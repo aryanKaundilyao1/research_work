@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const PROJECT_ROOT = path.join(__dirname, '..');
+const PROJECT_ROOT = process.env.VERCEL || process.env.VERCEL_ENV ? process.cwd() : path.join(__dirname, '..');
 
 const app = express();
 app.use(cors());
@@ -17,24 +17,33 @@ app.use('/raw', express.static(PROJECT_ROOT));
 // Helper: Recursively walk directory
 function walkDir(dir, skipDirs = []) {
   let results = [];
-  const list = fs.readdirSync(dir);
-  list.forEach(file => {
-    // Skip hidden files/dirs and explicitly skipped dirs
-    if (file.startsWith('.')) return;
-    
-    const fullPath = path.join(dir, file);
-    const relPath = path.relative(PROJECT_ROOT, fullPath);
-    
-    // Skip the dashboard folder itself and node_modules
-    if (relPath.startsWith('dashboard') || relPath.includes('node_modules')) return;
-    
-    const stat = fs.statSync(fullPath);
-    if (stat && stat.isDirectory()) {
-      results = results.concat(walkDir(fullPath, skipDirs));
-    } else {
-      results.push(relPath);
-    }
-  });
+  try {
+    if (!fs.existsSync(dir)) return results;
+    const list = fs.readdirSync(dir);
+    list.forEach(file => {
+      // Skip hidden files/dirs and explicitly skipped dirs
+      if (file.startsWith('.')) return;
+      
+      const fullPath = path.join(dir, file);
+      const relPath = path.relative(PROJECT_ROOT, fullPath);
+      
+      // Skip the dashboard folder itself, node_modules, and datasets (19GB)
+      if (relPath.startsWith('dashboard') || relPath.includes('node_modules') || relPath.startsWith('datasets')) return;
+      
+      try {
+        const stat = fs.statSync(fullPath);
+        if (stat && stat.isDirectory()) {
+          results = results.concat(walkDir(fullPath, skipDirs));
+        } else {
+          results.push(relPath);
+        }
+      } catch (err) {
+        // Ignore stat errors for missing/unreadable files in lambda
+      }
+    });
+  } catch (err) {
+    console.warn('Could not read directory:', dir);
+  }
   return results;
 }
 

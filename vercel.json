@@ -13,7 +13,7 @@
   ],
   "functions": {
     "api/**/*.js": {
-      "includeFiles": "{reports,datasets,documentation,experiments,figures,literature,results,code}/**"
+      "includeFiles": "{reports,documentation,experiments,figures,literature,results,code}/**"
     }
   }
 }
