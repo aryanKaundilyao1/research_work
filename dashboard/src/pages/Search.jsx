@@ -14,31 +14,9 @@ const Search = () => {
     setIsSearching(true);
     setSearched(true);
     try {
-      const q = query.toLowerCase();
-      const res = await fetch('/api/search_index.json');
-      const allFiles = await res.json();
-      
-      const matched = [];
-      allFiles.forEach(file => {
-        if (file.content.toLowerCase().includes(q)) {
-          const lines = file.content.split('\n');
-          const matches = [];
-          for (let i = 0; i < lines.length; i++) {
-            if (lines[i].toLowerCase().includes(q)) {
-              matches.push({
-                lineNum: i + 1,
-                content: lines[i].trim()
-              });
-              if (matches.length > 3) break;
-            }
-          }
-          matched.push({
-            path: file.path,
-            matches
-          });
-        }
-      });
-      setResults(matched);
+      const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+      const data = await res.json();
+      setResults(data);
     } catch (err) {
       console.error(err);
     } finally {

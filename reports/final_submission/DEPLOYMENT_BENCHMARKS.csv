@@ -1,0 +1,7 @@
+Pipeline_Stage,Latency_ms,Complexity
+Raw Signal Ingestion,0.5,O(N)
+Artifact Filtering,1.2,O(N)
+Feature Extraction (39 feats),4.5,O(N log N)
+Baseline Calibration (Z-score),0.2,O(1)
+XGBoost Inference,0.8,O(Trees * Depth)
+Total Pipeline Latency (Per Window),7.2,-

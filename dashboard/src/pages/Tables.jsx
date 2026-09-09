@@ -7,7 +7,7 @@ const Tables = () => {
   const [content, setContent] = useState('Select a table to view contents.');
 
   useEffect(() => {
-    fetch('/api/inventory.json')
+    fetch('/api/inventory')
       .then(res => res.json())
       .then(data => setTables(data.tables || []));
   }, []);
@@ -15,7 +15,7 @@ const Tables = () => {
   const loadTable = (path) => {
     setActiveTable(path);
     setContent('Loading...');
-    fetch(`/raw/${path}`)
+    fetch(`/api/file?path=${encodeURIComponent(path)}`)
       .then(res => res.text())
       .then(text => setContent(text))
       .catch(err => setContent(`Error loading table: ${err.message}`));

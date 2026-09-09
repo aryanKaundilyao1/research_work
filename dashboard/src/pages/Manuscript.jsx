@@ -7,7 +7,7 @@ const Manuscript = () => {
 
   useEffect(() => {
     // We fetch the compiled master manuscript
-    fetch('/raw/reports/FINAL_MANUSCRIPT_MASTER.md')
+    fetch('/api/file?path=reports/FINAL_MANUSCRIPT_MASTER.md')
       .then(res => {
         if (!res.ok) throw new Error('Failed to load master manuscript.');
         return res.text();

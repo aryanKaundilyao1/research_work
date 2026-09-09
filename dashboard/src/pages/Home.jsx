@@ -7,7 +7,7 @@ const Home = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/api/inventory.json')
+    fetch('/api/inventory')
       .then(res => {
         if (!res.ok) throw new Error('Network response was not ok');
         return res.json();
@@ -42,6 +42,46 @@ const Home = () => {
         <p className="text-slate-600 mt-2 text-lg">Wearable Physiological Stress Detection</p>
       </header>
 
+      <div className="bg-amber-100 border-l-4 border-amber-500 text-amber-900 p-4 mb-8 rounded shadow-sm">
+        <p className="font-bold text-lg">EXPERIMENTAL REBUILD — LEAKAGE-CORRECTED RESULTS</p>
+        <p>The dashboard has been updated to distinguish ARCHIVED/OBSOLETE RESULTS from CURRENT CORRECTED RESULTS.</p>
+      </div>
+
+      <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-8 mb-8">
+        <h3 className="text-xl font-bold mb-6 text-slate-800 border-b pb-2">Data Scale</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+          <div className="p-4 bg-slate-50 rounded border">
+            <h4 className="font-bold text-lg mb-2 text-indigo-600">WESAD (Source)</h4>
+            <ul className="space-y-1 text-slate-600">
+              <li><strong>N = 15</strong> participants</li>
+              <li>7.66 hours</li>
+              <li>9,034,272 sensor observations</li>
+              <li>877 QC windows</li>
+            </ul>
+          </div>
+          <div className="p-4 bg-slate-50 rounded border">
+            <h4 className="font-bold text-lg mb-2 text-teal-600">Target Dataset</h4>
+            <ul className="space-y-1 text-slate-600">
+              <li><strong>N = 35</strong> participants</li>
+              <li>17.01 hours</li>
+              <li>9,514,291 sensor observations</li>
+              <li>1,591 QC windows</li>
+            </ul>
+          </div>
+          <div className="p-4 bg-indigo-50 rounded border border-indigo-100">
+            <h4 className="font-bold text-lg mb-2 text-indigo-800">Combined</h4>
+            <ul className="space-y-1 text-indigo-900">
+              <li><strong>N = 50</strong> independent participants</li>
+              <li>24.67 hours</li>
+              <li>~18.55M raw sensor observations</li>
+            </ul>
+          </div>
+        </div>
+        <div className="bg-blue-50 text-blue-800 p-3 rounded text-sm italic">
+          "Sensor observations and overlapping windows reflect temporal data volume; participants constitute the primary independent unit for population-level inference."
+        </div>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-8">
         {stats.map((stat) => (
           <div key={stat.label} className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex items-center space-x-4">
@@ -57,7 +97,7 @@ const Home = () => {
       </div>
 
       <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-8">
-        <h3 className="text-xl font-bold mb-4 text-slate-800">Project Status: <span className="text-emerald-600">READY FOR SUBMISSION</span></h3>
+        <h3 className="text-xl font-bold mb-4 text-slate-800">Project Status: <span className="text-amber-600">EXPERIMENTALLY STRONG — FINAL VALIDATION / EXTERNAL REPLICATION PENDING</span></h3>
         
         <div className="space-y-4">
           <div className="flex items-center space-x-3 text-slate-400 line-through">

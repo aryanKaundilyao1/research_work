@@ -14,7 +14,6 @@ import AuditCenter from './pages/AuditCenter';
 import Search from './pages/Search';
 import Builder from './pages/Builder';
 import Checklist from './pages/Checklist';
-import VITPaperDraft from './pages/VITPaperDraft';
 
 function App() {
   return (
@@ -34,7 +33,6 @@ function App() {
           <Route path="search" element={<Search />} />
           <Route path="builder" element={<Builder />} />
           <Route path="checklist" element={<Checklist />} />
-          <Route path="vit-draft" element={<VITPaperDraft />} />
         </Route>
       </Routes>
     </BrowserRouter>

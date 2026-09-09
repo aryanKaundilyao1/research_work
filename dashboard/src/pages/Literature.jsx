@@ -7,7 +7,7 @@ const Literature = () => {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    fetch('/api/inventory.json')
+    fetch('/api/inventory')
       .then(res => res.json())
       .then(data => setPdfs(data.pdf || []));
   }, []);

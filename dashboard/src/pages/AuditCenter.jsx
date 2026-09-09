@@ -15,18 +15,16 @@ const AuditCenter = () => {
 
   const values = [
     { k: "WESAD N", v: "15" },
-    { k: "Dataset B N", v: "31" },
+    { k: "Dataset B N", v: "35" },
     { k: "Internal AUC", v: "0.964" },
-    { k: "External Absolute AUC", v: "0.423" },
-    { k: "ACC Ablation AUC", v: "0.540" },
-    { k: "Baseline Relative AUC", v: "1.000" },
-    { k: "Cohen's d", v: "≈ -1.47" },
+    { k: "Baseline-Relative AUC (Z-Score)", v: "0.739" },
+    { k: "Median/IQR AUC", v: "0.751" },
+    { k: "External Absolute AUC", v: "0.408" },
+    { k: "Cohen's d (ACC Shift)", v: "-1.47" },
     { k: "Bootstrap", v: "5000" },
-    { k: "Bootstrap CI", v: "[1.000, 1.000]" },
     { k: "Permutation", v: "1000" },
-    { k: "Permutation exceedances", v: "0" },
-    { k: "SHAP ρ", v: "0.9527" },
-    { k: "Top-20 Jaccard", v: "1.000" },
+    { k: "Permutation p-value", v: "0.001" },
+    { k: "SHAP Spearman ρ", v: "0.9527" },
   ];
 
   return (

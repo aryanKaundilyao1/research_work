@@ -1,0 +1,52 @@
+Subject ID,Dataset,Protocol version,Available recordings,Baseline available?,Stress tasks available,EDA available?,TEMP available?,BVP available?,ACC available?,Raw duration,Usable duration,Baseline duration,Stress duration,Missing-data percentage,Duplicate rows,Invalid timestamps,Signal-quality issues,Final eligibility,Exclusion reason
+S5,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,6258.0,1843.0,1198.0,645.0,0,0,0,None,Eligible,None
+S2,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,6079.0,1759.0,1144.0,615.0,0,0,0,None,Eligible,None
+S3,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,6493.0,1780.0,1140.0,640.0,0,0,0,None,Eligible,None
+S4,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,6423.0,1793.0014285714285,1158.0014285714285,635.0,0,0,0,None,Eligible,None
+S17,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5920.0,1904.0,1181.0,723.0,0,0,0,None,Eligible,None
+S10,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5496.0,1905.0,1180.0,725.0,0,0,0,None,Eligible,None
+S11,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5233.0,1860.0,1180.0,680.0,0,0,0,None,Eligible,None
+S16,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5631.0,1853.0014285714285,1180.0,673.0014285714286,0,0,0,None,Eligible,None
+S8,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5466.0,1839.0,1169.0,670.0,0,0,0,None,Eligible,None
+S6,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,7071.0,1830.0,1180.0,650.0,0,0,0,None,Eligible,None
+S7,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5238.0,1826.0,1186.0,640.0,0,0,0,None,Eligible,None
+S9,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5223.0,1825.0,1180.0,645.0,0,0,0,None,Eligible,None
+S13,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5537.0,1844.0014285714285,1180.0014285714285,664.0,0,0,0,None,Eligible,None
+S14,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5548.0,1855.0,1180.0,675.0,0,0,0,None,Eligible,None
+S15,WESAD,WESAD,1,Yes,Yes,Yes,Yes,Yes,Yes,5252.0,1861.0,1175.0,686.0,0,0,0,None,Eligible,None
+S05,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1221.0,1221.0,183.0,1038.0,0,0,0,None,Eligible,None
+f18,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,1871.0,1871.0,86.0,1785.0,0,0,0,None,Eligible,None
+S02,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1188.0,1188.0,192.0,996.0,0,161002,0,None,Eligible,None
+f11,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2174.0,2174.0,105.0,2069.0,0,0,0,None,Eligible,None
+f16,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2049.0,2049.0,81.0,1968.0,0,0,0,None,Eligible,None
+f17,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2204.0,2204.0,136.0,2068.0,0,0,0,None,Eligible,None
+f10,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2148.0,2148.0,109.0,2039.0,0,0,0,None,Eligible,None
+S03,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1110.0,1110.0,187.0,923.0,0,0,0,None,Eligible,None
+S04,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1372.0,1372.0,180.0,1192.0,0,0,0,None,Eligible,None
+f14,Target Dataset,V2,2,Yes,Yes,Yes,Yes,Yes,Yes,1859.0,1859.0,90.0,1769.0,0,0,0,None,Eligible,None
+f03,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2547.0,2547.0,164.0,2383.0,0,0,0,None,Eligible,None
+f04,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2206.0,2206.0,102.0,2104.0,0,0,0,None,Eligible,None
+S17,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1166.0,1166.0,174.0,992.0,0,0,0,None,Eligible,None
+S10,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1339.0,1339.0,184.0,1155.0,0,0,0,None,Eligible,None
+S11,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1181.0,1181.0,170.0,1011.0,0,0,0,None,Eligible,None
+S16,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1193.0,1193.0,193.0,1000.0,0,0,0,None,Eligible,None
+f05,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2166.0,2166.0,91.0,2075.0,0,0,0,None,Eligible,None
+f02,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,1858.0,1858.0,78.0,1780.0,0,0,0,None,Eligible,None
+S18,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1238.0,1238.0,184.0,1054.0,0,0,0,None,Eligible,None
+S01,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1465.0,1465.0,247.0,1218.0,0,0,0,None,Eligible,None
+S06,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1251.0,1251.0,193.0,1058.0,0,0,0,None,Eligible,None
+f15,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,1964.0,1964.0,87.0,1877.0,0,0,0,None,Eligible,None
+S08,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1196.0,1196.0,176.0,1020.0,0,0,0,None,Eligible,None
+f12,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2151.0,2151.0,91.0,2060.0,0,0,0,None,Eligible,None
+S09,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1119.0,1119.0,192.0,927.0,0,0,0,None,Eligible,None
+f13,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2354.0,2354.0,106.0,2248.0,0,0,0,None,Eligible,None
+S07,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1133.0,1133.0,163.0,970.0,0,0,0,None,Eligible,None
+f07,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2212.0,2212.0,77.0,2135.0,0,0,0,Protection dock covered BVP/TEMP,Excluded,Protection dock covered BVP/TEMP
+S13,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1296.0,1296.0,209.0,1087.0,0,0,0,None,Eligible,None
+f09,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2122.0,2122.0,98.0,2024.0,0,0,0,None,Eligible,None
+S14,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1326.0,1326.0,210.0,1116.0,0,0,0,None,Eligible,None
+S15,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1274.0,1274.0,207.0,1067.0,0,0,0,None,Eligible,None
+S12,Target Dataset,V1,1,Yes,Yes,Yes,Yes,Yes,Yes,1303.0,1303.0,199.0,1104.0,0,0,0,None,Eligible,None
+f08,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2070.0,2070.0,98.0,1972.0,0,0,0,None,Eligible,None
+f01,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2712.0,2712.0,121.0,2591.0,0,0,0,None,Eligible,None
+f06,Target Dataset,V2,1,Yes,Yes,Yes,Yes,Yes,Yes,2205.0,2205.0,86.0,2119.0,0,0,0,None,Eligible,None

@@ -4,7 +4,7 @@ import {
   Home, FileText, BookOpen, Bookmark, 
   TestTube, BarChart2, Image, Table2, 
   Code2, ShieldCheck, Search, LayoutTemplate, 
-  CheckSquare, GraduationCap
+  CheckSquare
 } from 'lucide-react';
 
 const Sidebar = () => {
@@ -21,7 +21,6 @@ const Sidebar = () => {
     { path: '/audit', label: 'Audit Center', icon: ShieldCheck },
     { path: '/search', label: 'Global Search', icon: Search },
     { path: '/builder', label: 'Manuscript Builder', icon: LayoutTemplate },
-    { path: '/vit-draft', label: 'VIT Paper Draft', icon: GraduationCap },
     { path: '/checklist', label: 'Pre-Submission', icon: CheckSquare },
   ];
 

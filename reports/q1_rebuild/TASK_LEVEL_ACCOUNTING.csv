@@ -1,0 +1,289 @@
+Protocol version,Subject,Task,Duration
+V1,S05,Baseline,183.0
+V1,S05,Stroop,99.0
+V1,S05,First Rest,112.0
+V1,S05,TMCT,336.0
+V1,S05,Second Rest,169.0
+V1,S05,Real Opinion,227.0
+V1,S05,Opposite Opinion,34.0
+V1,S05,Subtract,61.0
+V2,f18,Baseline,86.0
+V2,f18,Subtract,236.0
+V2,f18,First Rest,778.0
+V2,f18,TMCT,37.0
+V2,f18,Second Rest,18.0
+V2,f18,Real Opinion,37.0
+V2,f18,Opposite Opinion,643.0
+V2,f18,Stroop,36.0
+V1,S02,Baseline,192.0
+V1,S02,Stroop,86.0
+V1,S02,First Rest,116.0
+V1,S02,TMCT,249.0
+V1,S02,Second Rest,127.0
+V1,S02,Real Opinion,355.0
+V1,S02,Opposite Opinion,35.0
+V1,S02,Subtract,28.0
+V2,f11,Baseline,105.0
+V2,f11,Subtract,299.0
+V2,f11,First Rest,830.0
+V2,f11,TMCT,34.0
+V2,f11,Second Rest,24.0
+V2,f11,Real Opinion,38.0
+V2,f11,Opposite Opinion,807.0
+V2,f11,Stroop,37.0
+V2,f16,Baseline,81.0
+V2,f16,Subtract,244.0
+V2,f16,First Rest,935.0
+V2,f16,TMCT,44.0
+V2,f16,Second Rest,24.0
+V2,f16,Real Opinion,30.0
+V2,f16,Opposite Opinion,655.0
+V2,f16,Stroop,36.0
+V2,f17,Baseline,136.0
+V2,f17,Subtract,266.0
+V2,f17,First Rest,820.0
+V2,f17,TMCT,45.0
+V2,f17,Second Rest,24.0
+V2,f17,Real Opinion,48.0
+V2,f17,Opposite Opinion,819.0
+V2,f17,Stroop,46.0
+V2,f10,Baseline,109.0
+V2,f10,Subtract,255.0
+V2,f10,First Rest,844.0
+V2,f10,TMCT,41.0
+V2,f10,Second Rest,30.0
+V2,f10,Real Opinion,44.0
+V2,f10,Opposite Opinion,782.0
+V2,f10,Stroop,43.0
+V1,S03,Baseline,187.0
+V1,S03,Stroop,87.0
+V1,S03,First Rest,104.0
+V1,S03,TMCT,256.0
+V1,S03,Second Rest,128.0
+V1,S03,Real Opinion,295.0
+V1,S03,Opposite Opinion,34.0
+V1,S03,Subtract,19.0
+V1,S04,Baseline,180.0
+V1,S04,Stroop,158.0
+V1,S04,First Rest,96.0
+V1,S04,TMCT,374.0
+V1,S04,Second Rest,137.0
+V1,S04,Real Opinion,344.0
+V1,S04,Opposite Opinion,32.0
+V1,S04,Subtract,51.0
+V2,f14,Baseline,90.0
+V2,f14,Subtract,246.0
+V2,f14,First Rest,711.0
+V2,f14,TMCT,39.0
+V2,f14,Second Rest,42.0
+V2,f14,Real Opinion,49.0
+V2,f14,Opposite Opinion,639.0
+V2,f14,Stroop,43.0
+V2,f03,Baseline,164.0
+V2,f03,Subtract,261.0
+V2,f03,First Rest,1086.0
+V2,f03,TMCT,29.0
+V2,f03,Second Rest,19.0
+V2,f03,Real Opinion,31.0
+V2,f03,Opposite Opinion,922.0
+V2,f03,Stroop,35.0
+V2,f04,Baseline,102.0
+V2,f04,Subtract,265.0
+V2,f04,First Rest,860.0
+V2,f04,TMCT,40.0
+V2,f04,Second Rest,41.0
+V2,f04,Real Opinion,38.0
+V2,f04,Opposite Opinion,824.0
+V2,f04,Stroop,36.0
+V1,S17,Baseline,174.0
+V1,S17,Stroop,102.0
+V1,S17,First Rest,92.0
+V1,S17,TMCT,278.0
+V1,S17,Second Rest,159.0
+V1,S17,Real Opinion,309.0
+V1,S17,Opposite Opinion,31.0
+V1,S17,Subtract,21.0
+V1,S10,Baseline,184.0
+V1,S10,Stroop,109.0
+V1,S10,First Rest,117.0
+V1,S10,TMCT,362.0
+V1,S10,Second Rest,135.0
+V1,S10,Real Opinion,369.0
+V1,S10,Opposite Opinion,29.0
+V1,S10,Subtract,34.0
+V1,S11,Baseline,170.0
+V1,S11,Stroop,109.0
+V1,S11,First Rest,152.0
+V1,S11,TMCT,279.0
+V1,S11,Second Rest,151.0
+V1,S11,Real Opinion,250.0
+V1,S11,Opposite Opinion,31.0
+V1,S11,Subtract,39.0
+V1,S16,Baseline,193.0
+V1,S16,Stroop,103.0
+V1,S16,First Rest,101.0
+V1,S16,TMCT,232.0
+V1,S16,Second Rest,152.0
+V1,S16,Real Opinion,346.0
+V1,S16,Opposite Opinion,31.0
+V1,S16,Subtract,35.0
+V2,f05,Baseline,91.0
+V2,f05,Subtract,250.0
+V2,f05,First Rest,881.0
+V2,f05,TMCT,42.0
+V2,f05,Second Rest,19.0
+V2,f05,Real Opinion,40.0
+V2,f05,Opposite Opinion,795.0
+V2,f05,Stroop,48.0
+V2,f02,Baseline,78.0
+V2,f02,Subtract,379.0
+V2,f02,First Rest,792.0
+V2,f02,TMCT,42.0
+V2,f02,Second Rest,62.0
+V2,f02,Real Opinion,35.0
+V2,f02,Opposite Opinion,439.0
+V2,f02,Stroop,31.0
+V1,S18,Baseline,184.0
+V1,S18,Stroop,96.0
+V1,S18,First Rest,114.0
+V1,S18,TMCT,317.0
+V1,S18,Second Rest,158.0
+V1,S18,Real Opinion,314.0
+V1,S18,Opposite Opinion,33.0
+V1,S18,Subtract,22.0
+V1,S01,Baseline,247.0
+V1,S01,Stroop,175.0
+V1,S01,First Rest,105.0
+V1,S01,TMCT,440.0
+V1,S01,Second Rest,125.0
+V1,S01,Real Opinion,307.0
+V1,S01,Opposite Opinion,28.0
+V1,S01,Subtract,38.0
+V1,S06,Baseline,193.0
+V1,S06,Stroop,86.0
+V1,S06,First Rest,128.0
+V1,S06,TMCT,334.0
+V1,S06,Second Rest,140.0
+V1,S06,Real Opinion,305.0
+V1,S06,Opposite Opinion,32.0
+V1,S06,Subtract,33.0
+V2,f15,Baseline,87.0
+V2,f15,Subtract,264.0
+V2,f15,First Rest,814.0
+V2,f15,TMCT,38.0
+V2,f15,Second Rest,22.0
+V2,f15,Real Opinion,39.0
+V2,f15,Opposite Opinion,635.0
+V2,f15,Stroop,65.0
+V1,S08,Baseline,176.0
+V1,S08,Stroop,145.0
+V1,S08,First Rest,105.0
+V1,S08,TMCT,289.0
+V1,S08,Second Rest,155.0
+V1,S08,Real Opinion,268.0
+V1,S08,Opposite Opinion,32.0
+V1,S08,Subtract,26.0
+V2,f12,Baseline,91.0
+V2,f12,Subtract,251.0
+V2,f12,First Rest,860.0
+V2,f12,TMCT,38.0
+V2,f12,Second Rest,27.0
+V2,f12,Real Opinion,37.0
+V2,f12,Opposite Opinion,809.0
+V2,f12,Stroop,38.0
+V1,S09,Baseline,192.0
+V1,S09,Stroop,99.0
+V1,S09,First Rest,99.0
+V1,S09,TMCT,242.0
+V1,S09,Second Rest,131.0
+V1,S09,Real Opinion,278.0
+V1,S09,Opposite Opinion,32.0
+V1,S09,Subtract,46.0
+V2,f13,Baseline,106.0
+V2,f13,Subtract,217.0
+V2,f13,First Rest,1044.0
+V2,f13,TMCT,37.0
+V2,f13,Second Rest,29.0
+V2,f13,Real Opinion,38.0
+V2,f13,Opposite Opinion,842.0
+V2,f13,Stroop,41.0
+V1,S07,Baseline,163.0
+V1,S07,Stroop,111.0
+V1,S07,First Rest,103.0
+V1,S07,TMCT,272.0
+V1,S07,Second Rest,129.0
+V1,S07,Real Opinion,285.0
+V1,S07,Opposite Opinion,32.0
+V1,S07,Subtract,38.0
+V2,f07,Baseline,77.0
+V2,f07,Subtract,247.0
+V2,f07,First Rest,836.0
+V2,f07,TMCT,40.0
+V2,f07,Second Rest,27.0
+V2,f07,Real Opinion,42.0
+V2,f07,Opposite Opinion,900.0
+V2,f07,Stroop,43.0
+V1,S13,Baseline,209.0
+V1,S13,Stroop,119.0
+V1,S13,First Rest,113.0
+V1,S13,TMCT,361.0
+V1,S13,Second Rest,127.0
+V1,S13,Real Opinion,297.0
+V1,S13,Opposite Opinion,29.0
+V1,S13,Subtract,41.0
+V2,f09,Baseline,98.0
+V2,f09,Subtract,267.0
+V2,f09,First Rest,819.0
+V2,f09,TMCT,38.0
+V2,f09,Second Rest,22.0
+V2,f09,Real Opinion,40.0
+V2,f09,Opposite Opinion,800.0
+V2,f09,Stroop,38.0
+V1,S14,Baseline,210.0
+V1,S14,Stroop,126.0
+V1,S14,First Rest,109.0
+V1,S14,TMCT,352.0
+V1,S14,Second Rest,137.0
+V1,S14,Real Opinion,332.0
+V1,S14,Opposite Opinion,30.0
+V1,S14,Subtract,30.0
+V1,S15,Baseline,207.0
+V1,S15,Stroop,71.0
+V1,S15,First Rest,110.0
+V1,S15,TMCT,351.0
+V1,S15,Second Rest,162.0
+V1,S15,Real Opinion,310.0
+V1,S15,Opposite Opinion,32.0
+V1,S15,Subtract,31.0
+V1,S12,Baseline,199.0
+V1,S12,Stroop,103.0
+V1,S12,First Rest,109.0
+V1,S12,TMCT,355.0
+V1,S12,Second Rest,131.0
+V1,S12,Real Opinion,339.0
+V1,S12,Opposite Opinion,30.0
+V1,S12,Subtract,37.0
+V2,f08,Baseline,98.0
+V2,f08,Subtract,289.0
+V2,f08,First Rest,873.0
+V2,f08,TMCT,36.0
+V2,f08,Second Rest,35.0
+V2,f08,Real Opinion,37.0
+V2,f08,Opposite Opinion,662.0
+V2,f08,Stroop,40.0
+V2,f01,Baseline,121.0
+V2,f01,Subtract,452.0
+V2,f01,First Rest,854.0
+V2,f01,TMCT,37.0
+V2,f01,Second Rest,21.0
+V2,f01,Real Opinion,32.0
+V2,f01,Opposite Opinion,1169.0
+V2,f01,Stroop,26.0
+V2,f06,Baseline,86.0
+V2,f06,Subtract,241.0
+V2,f06,First Rest,853.0
+V2,f06,TMCT,41.0
+V2,f06,Second Rest,28.0
+V2,f06,Real Opinion,39.0
+V2,f06,Opposite Opinion,878.0
+V2,f06,Stroop,39.0

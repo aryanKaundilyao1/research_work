@@ -6,7 +6,7 @@ const Figures = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
-    fetch('/api/inventory.json')
+    fetch('/api/inventory')
       .then(res => res.json())
       .then(data => setFigures(data.figures || []));
   }, []);

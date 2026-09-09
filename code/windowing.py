@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def sliding_window(segments, window_size=60, step=30):
     """
@@ -54,8 +55,8 @@ def sliding_window(segments, window_size=60, step=30):
                 'task': seg['task'],
                 'signals': win_signals,
                 'fs': seg['fs'],
-                'window_start_time': seg['start_time'] + start_sec if isinstance(seg['start_time'], (int, float)) else None, # for Dataset B this is a datetime, will handle if needed
-                'window_end_time': seg['start_time'] + end_sec if isinstance(seg['start_time'], (int, float)) else None
+                'window_start_time': seg['start_time'] + start_sec if isinstance(seg['start_time'], (int, float)) else seg['start_time'] + pd.Timedelta(seconds=start_sec),
+                'window_end_time': seg['start_time'] + end_sec if isinstance(seg['start_time'], (int, float)) else seg['start_time'] + pd.Timedelta(seconds=end_sec)
             })
             
     return windows

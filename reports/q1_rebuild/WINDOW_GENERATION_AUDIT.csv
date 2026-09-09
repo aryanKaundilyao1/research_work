@@ -1,0 +1,319 @@
+Dataset,Subject,Task,Class,Raw duration,Potential windows,QC-passed windows,Rejected windows,Rejection %
+WESAD,S5,Baseline,Baseline,1198.0,38,38,0,0.0
+WESAD,S5,Stress,Stress,645.0,20,20,0,0.0
+WESAD,S2,Baseline,Baseline,1144.0,37,37,0,0.0
+WESAD,S2,Stress,Stress,615.0,19,19,0,0.0
+WESAD,S3,Baseline,Baseline,1140.0,37,37,0,0.0
+WESAD,S3,Stress,Stress,640.0,20,20,0,0.0
+WESAD,S4,Baseline,Baseline,1158.0014285714285,37,37,0,0.0
+WESAD,S4,Stress,Stress,635.0,20,20,0,0.0
+WESAD,S17,Baseline,Baseline,1181.0,38,38,0,0.0
+WESAD,S17,Stress,Stress,723.0,23,23,0,0.0
+WESAD,S10,Baseline,Baseline,1180.0,38,38,0,0.0
+WESAD,S10,Stress,Stress,725.0,23,23,0,0.0
+WESAD,S11,Baseline,Baseline,1180.0,38,38,0,0.0
+WESAD,S11,Stress,Stress,680.0,21,21,0,0.0
+WESAD,S16,Baseline,Baseline,1180.0,38,38,0,0.0
+WESAD,S16,Stress,Stress,673.0014285714286,21,21,0,0.0
+WESAD,S8,Baseline,Baseline,1169.0,37,37,0,0.0
+WESAD,S8,Stress,Stress,670.0,21,21,0,0.0
+WESAD,S6,Baseline,Baseline,1180.0,38,38,0,0.0
+WESAD,S6,Stress,Stress,650.0,20,20,0,0.0
+WESAD,S7,Baseline,Baseline,1186.0,38,38,0,0.0
+WESAD,S7,Stress,Stress,640.0,20,20,0,0.0
+WESAD,S9,Baseline,Baseline,1180.0,38,38,0,0.0
+WESAD,S9,Stress,Stress,645.0,20,20,0,0.0
+WESAD,S13,Baseline,Baseline,1180.0014285714285,38,38,0,0.0
+WESAD,S13,Stress,Stress,664.0,21,21,0,0.0
+WESAD,S14,Baseline,Baseline,1180.0,38,38,0,0.0
+WESAD,S14,Stress,Stress,675.0,21,21,0,0.0
+WESAD,S15,Baseline,Baseline,1175.0,38,38,0,0.0
+WESAD,S15,Stress,Stress,686.0,21,21,0,0.0
+Target Dataset,S05,Baseline,Baseline,183.0,5,5,0,0.0
+Target Dataset,S05,Stroop,Stress,99.0,2,2,0,0.0
+Target Dataset,S05,First Rest,Baseline,112.0,2,2,0,0.0
+Target Dataset,S05,TMCT,Stress,336.0,10,10,0,0.0
+Target Dataset,S05,Second Rest,Baseline,169.0,4,4,0,0.0
+Target Dataset,S05,Real Opinion,Stress,227.0,6,6,0,0.0
+Target Dataset,S05,Opposite Opinion,Stress,34.0,0,0,0,0.0
+Target Dataset,S05,Subtract,Stress,61.0,1,1,0,0.0
+Target Dataset,f18,Baseline,Baseline,86.0,1,1,0,0.0
+Target Dataset,f18,Subtract,Stress,236.0,6,6,0,0.0
+Target Dataset,f18,First Rest,Baseline,778.0,24,24,0,0.0
+Target Dataset,f18,TMCT,Stress,37.0,0,0,0,0.0
+Target Dataset,f18,Second Rest,Baseline,18.0,0,0,0,0.0
+Target Dataset,f18,Real Opinion,Stress,37.0,0,0,0,0.0
+Target Dataset,f18,Opposite Opinion,Stress,643.0,20,20,0,0.0
+Target Dataset,f18,Stroop,Stress,36.0,0,0,0,0.0
+Target Dataset,S02,Baseline,Baseline,192.0,5,5,0,0.0
+Target Dataset,S02,Stroop,Stress,86.0,1,1,0,0.0
+Target Dataset,S02,First Rest,Baseline,116.0,2,2,0,0.0
+Target Dataset,S02,TMCT,Stress,249.0,7,7,0,0.0
+Target Dataset,S02,Second Rest,Baseline,127.0,3,3,0,0.0
+Target Dataset,S02,Real Opinion,Stress,355.0,10,10,0,0.0
+Target Dataset,S02,Opposite Opinion,Stress,35.0,0,0,0,0.0
+Target Dataset,S02,Subtract,Stress,28.0,0,0,0,0.0
+Target Dataset,f11,Baseline,Baseline,105.0,2,2,0,0.0
+Target Dataset,f11,Subtract,Stress,299.0,8,8,0,0.0
+Target Dataset,f11,First Rest,Baseline,830.0,26,26,0,0.0
+Target Dataset,f11,TMCT,Stress,34.0,0,0,0,0.0
+Target Dataset,f11,Second Rest,Baseline,24.0,0,0,0,0.0
+Target Dataset,f11,Real Opinion,Stress,38.0,0,0,0,0.0
+Target Dataset,f11,Opposite Opinion,Stress,807.0,25,25,0,0.0
+Target Dataset,f11,Stroop,Stress,37.0,0,0,0,0.0
+Target Dataset,f16,Baseline,Baseline,81.0,1,1,0,0.0
+Target Dataset,f16,Subtract,Stress,244.0,7,7,0,0.0
+Target Dataset,f16,First Rest,Baseline,935.0,30,30,0,0.0
+Target Dataset,f16,TMCT,Stress,44.0,0,0,0,0.0
+Target Dataset,f16,Second Rest,Baseline,24.0,0,0,0,0.0
+Target Dataset,f16,Real Opinion,Stress,30.0,0,0,0,0.0
+Target Dataset,f16,Opposite Opinion,Stress,655.0,20,20,0,0.0
+Target Dataset,f16,Stroop,Stress,36.0,0,0,0,0.0
+Target Dataset,f17,Baseline,Baseline,136.0,3,3,0,0.0
+Target Dataset,f17,Subtract,Stress,266.0,7,7,0,0.0
+Target Dataset,f17,First Rest,Baseline,820.0,26,26,0,0.0
+Target Dataset,f17,TMCT,Stress,45.0,0,0,0,0.0
+Target Dataset,f17,Second Rest,Baseline,24.0,0,0,0,0.0
+Target Dataset,f17,Real Opinion,Stress,48.0,0,0,0,0.0
+Target Dataset,f17,Opposite Opinion,Stress,819.0,26,26,0,0.0
+Target Dataset,f17,Stroop,Stress,46.0,0,0,0,0.0
+Target Dataset,f10,Baseline,Baseline,109.0,2,2,0,0.0
+Target Dataset,f10,Subtract,Stress,255.0,7,7,0,0.0
+Target Dataset,f10,First Rest,Baseline,844.0,27,27,0,0.0
+Target Dataset,f10,TMCT,Stress,41.0,0,0,0,0.0
+Target Dataset,f10,Second Rest,Baseline,30.0,0,0,0,0.0
+Target Dataset,f10,Real Opinion,Stress,44.0,0,0,0,0.0
+Target Dataset,f10,Opposite Opinion,Stress,782.0,25,25,0,0.0
+Target Dataset,f10,Stroop,Stress,43.0,0,0,0,0.0
+Target Dataset,S03,Baseline,Baseline,187.0,5,5,0,0.0
+Target Dataset,S03,Stroop,Stress,87.0,1,1,0,0.0
+Target Dataset,S03,First Rest,Baseline,104.0,2,2,0,0.0
+Target Dataset,S03,TMCT,Stress,256.0,7,7,0,0.0
+Target Dataset,S03,Second Rest,Baseline,128.0,3,3,0,0.0
+Target Dataset,S03,Real Opinion,Stress,295.0,8,8,0,0.0
+Target Dataset,S03,Opposite Opinion,Stress,34.0,0,0,0,0.0
+Target Dataset,S03,Subtract,Stress,19.0,0,0,0,0.0
+Target Dataset,S04,Baseline,Baseline,180.0,5,5,0,0.0
+Target Dataset,S04,Stroop,Stress,158.0,4,4,0,0.0
+Target Dataset,S04,First Rest,Baseline,96.0,2,2,0,0.0
+Target Dataset,S04,TMCT,Stress,374.0,11,11,0,0.0
+Target Dataset,S04,Second Rest,Baseline,137.0,3,3,0,0.0
+Target Dataset,S04,Real Opinion,Stress,344.0,10,10,0,0.0
+Target Dataset,S04,Opposite Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,S04,Subtract,Stress,51.0,0,0,0,0.0
+Target Dataset,f14,Baseline,Baseline,90.0,2,2,0,0.0
+Target Dataset,f14,Subtract,Stress,246.0,7,7,0,0.0
+Target Dataset,f14,First Rest,Baseline,711.0,22,22,0,0.0
+Target Dataset,f14,TMCT,Stress,39.0,0,0,0,0.0
+Target Dataset,f14,Second Rest,Baseline,42.0,0,0,0,0.0
+Target Dataset,f14,Real Opinion,Stress,49.0,0,0,0,0.0
+Target Dataset,f14,Opposite Opinion,Stress,639.0,20,20,0,0.0
+Target Dataset,f14,Stroop,Stress,43.0,0,0,0,0.0
+Target Dataset,f03,Baseline,Baseline,164.0,4,4,0,0.0
+Target Dataset,f03,Subtract,Stress,261.0,7,7,0,0.0
+Target Dataset,f03,First Rest,Baseline,1086.0,35,35,0,0.0
+Target Dataset,f03,TMCT,Stress,29.0,0,0,0,0.0
+Target Dataset,f03,Second Rest,Baseline,19.0,0,0,0,0.0
+Target Dataset,f03,Real Opinion,Stress,31.0,0,0,0,0.0
+Target Dataset,f03,Opposite Opinion,Stress,922.0,29,29,0,0.0
+Target Dataset,f03,Stroop,Stress,35.0,0,0,0,0.0
+Target Dataset,f04,Baseline,Baseline,102.0,2,2,0,0.0
+Target Dataset,f04,Subtract,Stress,265.0,7,7,0,0.0
+Target Dataset,f04,First Rest,Baseline,860.0,27,27,0,0.0
+Target Dataset,f04,TMCT,Stress,40.0,0,0,0,0.0
+Target Dataset,f04,Second Rest,Baseline,41.0,0,0,0,0.0
+Target Dataset,f04,Real Opinion,Stress,38.0,0,0,0,0.0
+Target Dataset,f04,Opposite Opinion,Stress,824.0,26,26,0,0.0
+Target Dataset,f04,Stroop,Stress,36.0,0,0,0,0.0
+Target Dataset,S17,Baseline,Baseline,174.0,4,4,0,0.0
+Target Dataset,S17,Stroop,Stress,102.0,2,2,0,0.0
+Target Dataset,S17,First Rest,Baseline,92.0,2,2,0,0.0
+Target Dataset,S17,TMCT,Stress,278.0,8,8,0,0.0
+Target Dataset,S17,Second Rest,Baseline,159.0,4,4,0,0.0
+Target Dataset,S17,Real Opinion,Stress,309.0,9,9,0,0.0
+Target Dataset,S17,Opposite Opinion,Stress,31.0,0,0,0,0.0
+Target Dataset,S17,Subtract,Stress,21.0,0,0,0,0.0
+Target Dataset,S10,Baseline,Baseline,184.0,5,5,0,0.0
+Target Dataset,S10,Stroop,Stress,109.0,2,2,0,0.0
+Target Dataset,S10,First Rest,Baseline,117.0,2,2,0,0.0
+Target Dataset,S10,TMCT,Stress,362.0,11,11,0,0.0
+Target Dataset,S10,Second Rest,Baseline,135.0,3,3,0,0.0
+Target Dataset,S10,Real Opinion,Stress,369.0,11,11,0,0.0
+Target Dataset,S10,Opposite Opinion,Stress,29.0,0,0,0,0.0
+Target Dataset,S10,Subtract,Stress,34.0,0,0,0,0.0
+Target Dataset,S11,Baseline,Baseline,170.0,4,4,0,0.0
+Target Dataset,S11,Stroop,Stress,109.0,2,2,0,0.0
+Target Dataset,S11,First Rest,Baseline,152.0,4,4,0,0.0
+Target Dataset,S11,TMCT,Stress,279.0,8,8,0,0.0
+Target Dataset,S11,Second Rest,Baseline,151.0,4,4,0,0.0
+Target Dataset,S11,Real Opinion,Stress,250.0,7,7,0,0.0
+Target Dataset,S11,Opposite Opinion,Stress,31.0,0,0,0,0.0
+Target Dataset,S11,Subtract,Stress,39.0,0,0,0,0.0
+Target Dataset,S16,Baseline,Baseline,193.0,5,5,0,0.0
+Target Dataset,S16,Stroop,Stress,103.0,2,2,0,0.0
+Target Dataset,S16,First Rest,Baseline,101.0,2,2,0,0.0
+Target Dataset,S16,TMCT,Stress,232.0,6,6,0,0.0
+Target Dataset,S16,Second Rest,Baseline,152.0,4,4,0,0.0
+Target Dataset,S16,Real Opinion,Stress,346.0,10,10,0,0.0
+Target Dataset,S16,Opposite Opinion,Stress,31.0,0,0,0,0.0
+Target Dataset,S16,Subtract,Stress,35.0,0,0,0,0.0
+Target Dataset,f05,Baseline,Baseline,91.0,2,2,0,0.0
+Target Dataset,f05,Subtract,Stress,250.0,7,7,0,0.0
+Target Dataset,f05,First Rest,Baseline,881.0,28,28,0,0.0
+Target Dataset,f05,TMCT,Stress,42.0,0,0,0,0.0
+Target Dataset,f05,Second Rest,Baseline,19.0,0,0,0,0.0
+Target Dataset,f05,Real Opinion,Stress,40.0,0,0,0,0.0
+Target Dataset,f05,Opposite Opinion,Stress,795.0,25,25,0,0.0
+Target Dataset,f05,Stroop,Stress,48.0,0,0,0,0.0
+Target Dataset,f02,Baseline,Baseline,78.0,1,1,0,0.0
+Target Dataset,f02,Subtract,Stress,379.0,11,11,0,0.0
+Target Dataset,f02,First Rest,Baseline,792.0,25,25,0,0.0
+Target Dataset,f02,TMCT,Stress,42.0,0,0,0,0.0
+Target Dataset,f02,Second Rest,Baseline,62.0,1,1,0,0.0
+Target Dataset,f02,Real Opinion,Stress,35.0,0,0,0,0.0
+Target Dataset,f02,Opposite Opinion,Stress,439.0,13,13,0,0.0
+Target Dataset,f02,Stroop,Stress,31.0,0,0,0,0.0
+Target Dataset,S18,Baseline,Baseline,184.0,5,5,0,0.0
+Target Dataset,S18,Stroop,Stress,96.0,2,2,0,0.0
+Target Dataset,S18,First Rest,Baseline,114.0,2,2,0,0.0
+Target Dataset,S18,TMCT,Stress,317.0,9,9,0,0.0
+Target Dataset,S18,Second Rest,Baseline,158.0,4,4,0,0.0
+Target Dataset,S18,Real Opinion,Stress,314.0,9,9,0,0.0
+Target Dataset,S18,Opposite Opinion,Stress,33.0,0,0,0,0.0
+Target Dataset,S18,Subtract,Stress,22.0,0,0,0,0.0
+Target Dataset,S01,Baseline,Baseline,247.0,7,7,0,0.0
+Target Dataset,S01,Stroop,Stress,175.0,4,4,0,0.0
+Target Dataset,S01,First Rest,Baseline,105.0,2,2,0,0.0
+Target Dataset,S01,TMCT,Stress,440.0,13,13,0,0.0
+Target Dataset,S01,Second Rest,Baseline,125.0,3,3,0,0.0
+Target Dataset,S01,Real Opinion,Stress,307.0,9,9,0,0.0
+Target Dataset,S01,Opposite Opinion,Stress,28.0,0,0,0,0.0
+Target Dataset,S01,Subtract,Stress,38.0,0,0,0,0.0
+Target Dataset,S06,Baseline,Baseline,193.0,5,5,0,0.0
+Target Dataset,S06,Stroop,Stress,86.0,1,1,0,0.0
+Target Dataset,S06,First Rest,Baseline,128.0,3,3,0,0.0
+Target Dataset,S06,TMCT,Stress,334.0,10,10,0,0.0
+Target Dataset,S06,Second Rest,Baseline,140.0,3,3,0,0.0
+Target Dataset,S06,Real Opinion,Stress,305.0,9,9,0,0.0
+Target Dataset,S06,Opposite Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,S06,Subtract,Stress,33.0,0,0,0,0.0
+Target Dataset,f15,Baseline,Baseline,87.0,1,1,0,0.0
+Target Dataset,f15,Subtract,Stress,264.0,7,7,0,0.0
+Target Dataset,f15,First Rest,Baseline,814.0,26,26,0,0.0
+Target Dataset,f15,TMCT,Stress,38.0,0,0,0,0.0
+Target Dataset,f15,Second Rest,Baseline,22.0,0,0,0,0.0
+Target Dataset,f15,Real Opinion,Stress,39.0,0,0,0,0.0
+Target Dataset,f15,Opposite Opinion,Stress,635.0,20,20,0,0.0
+Target Dataset,f15,Stroop,Stress,65.0,1,1,0,0.0
+Target Dataset,S08,Baseline,Baseline,176.0,4,4,0,0.0
+Target Dataset,S08,Stroop,Stress,145.0,3,3,0,0.0
+Target Dataset,S08,First Rest,Baseline,105.0,2,2,0,0.0
+Target Dataset,S08,TMCT,Stress,289.0,8,8,0,0.0
+Target Dataset,S08,Second Rest,Baseline,155.0,4,4,0,0.0
+Target Dataset,S08,Real Opinion,Stress,268.0,7,7,0,0.0
+Target Dataset,S08,Opposite Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,S08,Subtract,Stress,26.0,0,0,0,0.0
+Target Dataset,f12,Baseline,Baseline,91.0,2,2,0,0.0
+Target Dataset,f12,Subtract,Stress,251.0,7,7,0,0.0
+Target Dataset,f12,First Rest,Baseline,860.0,27,27,0,0.0
+Target Dataset,f12,TMCT,Stress,38.0,0,0,0,0.0
+Target Dataset,f12,Second Rest,Baseline,27.0,0,0,0,0.0
+Target Dataset,f12,Real Opinion,Stress,37.0,0,0,0,0.0
+Target Dataset,f12,Opposite Opinion,Stress,809.0,25,25,0,0.0
+Target Dataset,f12,Stroop,Stress,38.0,0,0,0,0.0
+Target Dataset,S09,Baseline,Baseline,192.0,5,5,0,0.0
+Target Dataset,S09,Stroop,Stress,99.0,2,2,0,0.0
+Target Dataset,S09,First Rest,Baseline,99.0,2,2,0,0.0
+Target Dataset,S09,TMCT,Stress,242.0,7,7,0,0.0
+Target Dataset,S09,Second Rest,Baseline,131.0,3,3,0,0.0
+Target Dataset,S09,Real Opinion,Stress,278.0,8,8,0,0.0
+Target Dataset,S09,Opposite Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,S09,Subtract,Stress,46.0,0,0,0,0.0
+Target Dataset,f13,Baseline,Baseline,106.0,2,2,0,0.0
+Target Dataset,f13,Subtract,Stress,217.0,6,6,0,0.0
+Target Dataset,f13,First Rest,Baseline,1044.0,33,33,0,0.0
+Target Dataset,f13,TMCT,Stress,37.0,0,0,0,0.0
+Target Dataset,f13,Second Rest,Baseline,29.0,0,0,0,0.0
+Target Dataset,f13,Real Opinion,Stress,38.0,0,0,0,0.0
+Target Dataset,f13,Opposite Opinion,Stress,842.0,27,27,0,0.0
+Target Dataset,f13,Stroop,Stress,41.0,0,0,0,0.0
+Target Dataset,S07,Baseline,Baseline,163.0,4,4,0,0.0
+Target Dataset,S07,Stroop,Stress,111.0,2,2,0,0.0
+Target Dataset,S07,First Rest,Baseline,103.0,2,2,0,0.0
+Target Dataset,S07,TMCT,Stress,272.0,8,8,0,0.0
+Target Dataset,S07,Second Rest,Baseline,129.0,3,3,0,0.0
+Target Dataset,S07,Real Opinion,Stress,285.0,8,8,0,0.0
+Target Dataset,S07,Opposite Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,S07,Subtract,Stress,38.0,0,0,0,0.0
+Target Dataset,f07,Baseline,Baseline,77.0,1,0,1,1.0
+Target Dataset,f07,Subtract,Stress,247.0,7,0,7,1.0
+Target Dataset,f07,First Rest,Baseline,836.0,26,0,26,1.0
+Target Dataset,f07,TMCT,Stress,40.0,0,0,0,0.0
+Target Dataset,f07,Second Rest,Baseline,27.0,0,0,0,0.0
+Target Dataset,f07,Real Opinion,Stress,42.0,0,0,0,0.0
+Target Dataset,f07,Opposite Opinion,Stress,900.0,29,0,29,1.0
+Target Dataset,f07,Stroop,Stress,43.0,0,0,0,0.0
+Target Dataset,S13,Baseline,Baseline,209.0,5,5,0,0.0
+Target Dataset,S13,Stroop,Stress,119.0,2,2,0,0.0
+Target Dataset,S13,First Rest,Baseline,113.0,2,2,0,0.0
+Target Dataset,S13,TMCT,Stress,361.0,11,11,0,0.0
+Target Dataset,S13,Second Rest,Baseline,127.0,3,3,0,0.0
+Target Dataset,S13,Real Opinion,Stress,297.0,8,8,0,0.0
+Target Dataset,S13,Opposite Opinion,Stress,29.0,0,0,0,0.0
+Target Dataset,S13,Subtract,Stress,41.0,0,0,0,0.0
+Target Dataset,f09,Baseline,Baseline,98.0,2,2,0,0.0
+Target Dataset,f09,Subtract,Stress,267.0,7,7,0,0.0
+Target Dataset,f09,First Rest,Baseline,819.0,26,26,0,0.0
+Target Dataset,f09,TMCT,Stress,38.0,0,0,0,0.0
+Target Dataset,f09,Second Rest,Baseline,22.0,0,0,0,0.0
+Target Dataset,f09,Real Opinion,Stress,40.0,0,0,0,0.0
+Target Dataset,f09,Opposite Opinion,Stress,800.0,25,25,0,0.0
+Target Dataset,f09,Stroop,Stress,38.0,0,0,0,0.0
+Target Dataset,S14,Baseline,Baseline,210.0,6,6,0,0.0
+Target Dataset,S14,Stroop,Stress,126.0,3,3,0,0.0
+Target Dataset,S14,First Rest,Baseline,109.0,2,2,0,0.0
+Target Dataset,S14,TMCT,Stress,352.0,10,10,0,0.0
+Target Dataset,S14,Second Rest,Baseline,137.0,3,3,0,0.0
+Target Dataset,S14,Real Opinion,Stress,332.0,10,10,0,0.0
+Target Dataset,S14,Opposite Opinion,Stress,30.0,0,0,0,0.0
+Target Dataset,S14,Subtract,Stress,30.0,0,0,0,0.0
+Target Dataset,S15,Baseline,Baseline,207.0,5,5,0,0.0
+Target Dataset,S15,Stroop,Stress,71.0,1,1,0,0.0
+Target Dataset,S15,First Rest,Baseline,110.0,2,2,0,0.0
+Target Dataset,S15,TMCT,Stress,351.0,10,10,0,0.0
+Target Dataset,S15,Second Rest,Baseline,162.0,4,4,0,0.0
+Target Dataset,S15,Real Opinion,Stress,310.0,9,9,0,0.0
+Target Dataset,S15,Opposite Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,S15,Subtract,Stress,31.0,0,0,0,0.0
+Target Dataset,S12,Baseline,Baseline,199.0,5,5,0,0.0
+Target Dataset,S12,Stroop,Stress,103.0,2,2,0,0.0
+Target Dataset,S12,First Rest,Baseline,109.0,2,2,0,0.0
+Target Dataset,S12,TMCT,Stress,355.0,10,10,0,0.0
+Target Dataset,S12,Second Rest,Baseline,131.0,3,3,0,0.0
+Target Dataset,S12,Real Opinion,Stress,339.0,10,10,0,0.0
+Target Dataset,S12,Opposite Opinion,Stress,30.0,0,0,0,0.0
+Target Dataset,S12,Subtract,Stress,37.0,0,0,0,0.0
+Target Dataset,f08,Baseline,Baseline,98.0,2,2,0,0.0
+Target Dataset,f08,Subtract,Stress,289.0,8,8,0,0.0
+Target Dataset,f08,First Rest,Baseline,873.0,28,28,0,0.0
+Target Dataset,f08,TMCT,Stress,36.0,0,0,0,0.0
+Target Dataset,f08,Second Rest,Baseline,35.0,0,0,0,0.0
+Target Dataset,f08,Real Opinion,Stress,37.0,0,0,0,0.0
+Target Dataset,f08,Opposite Opinion,Stress,662.0,21,21,0,0.0
+Target Dataset,f08,Stroop,Stress,40.0,0,0,0,0.0
+Target Dataset,f01,Baseline,Baseline,121.0,3,3,0,0.0
+Target Dataset,f01,Subtract,Stress,452.0,14,14,0,0.0
+Target Dataset,f01,First Rest,Baseline,854.0,27,27,0,0.0
+Target Dataset,f01,TMCT,Stress,37.0,0,0,0,0.0
+Target Dataset,f01,Second Rest,Baseline,21.0,0,0,0,0.0
+Target Dataset,f01,Real Opinion,Stress,32.0,0,0,0,0.0
+Target Dataset,f01,Opposite Opinion,Stress,1169.0,37,37,0,0.0
+Target Dataset,f01,Stroop,Stress,26.0,0,0,0,0.0
+Target Dataset,f06,Baseline,Baseline,86.0,1,1,0,0.0
+Target Dataset,f06,Subtract,Stress,241.0,7,7,0,0.0
+Target Dataset,f06,First Rest,Baseline,853.0,27,27,0,0.0
+Target Dataset,f06,TMCT,Stress,41.0,0,0,0,0.0
+Target Dataset,f06,Second Rest,Baseline,28.0,0,0,0,0.0
+Target Dataset,f06,Real Opinion,Stress,39.0,0,0,0,0.0
+Target Dataset,f06,Opposite Opinion,Stress,878.0,28,28,0,0.0
+Target Dataset,f06,Stroop,Stress,39.0,0,0,0,0.0

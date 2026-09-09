@@ -9,7 +9,7 @@ const CodeViewer = () => {
   const [content, setContent] = useState('');
 
   useEffect(() => {
-    fetch('/api/inventory.json')
+    fetch('/api/inventory')
       .then(res => res.json())
       .then(data => setCodeFiles(data.code || []));
   }, []);
@@ -17,7 +17,7 @@ const CodeViewer = () => {
   const loadCode = (path) => {
     setActiveFile(path);
     setContent('Loading...');
-    fetch(`/raw/${path}`)
+    fetch(`/api/file?path=${encodeURIComponent(path)}`)
       .then(res => res.text())
       .then(text => setContent(text))
       .catch(err => setContent(`Error loading code: ${err.message}`));
