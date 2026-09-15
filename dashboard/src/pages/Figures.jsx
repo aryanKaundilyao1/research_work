@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Image as ImageIcon } from 'lucide-react';
+import { inventory } from '../generated/staticData';
 
 const Figures = () => {
-  const [figures, setFigures] = useState([]);
+  const figures = inventory.figures || [];
   const [selectedImage, setSelectedImage] = useState(null);
-
-  useEffect(() => {
-    fetch('/api/inventory')
-      .then(res => res.json())
-      .then(data => setFigures(data.figures || []));
-  }, []);
 
   return (
     <div className="max-w-6xl mx-auto">

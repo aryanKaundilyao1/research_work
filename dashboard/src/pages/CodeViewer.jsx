@@ -1,23 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Code2, FileCode2 } from 'lucide-react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { inventory } from '../generated/staticData';
 
 const CodeViewer = () => {
-  const [codeFiles, setCodeFiles] = useState([]);
+  const codeFiles = inventory.code || [];
   const [activeFile, setActiveFile] = useState(null);
   const [content, setContent] = useState('');
-
-  useEffect(() => {
-    fetch('/api/inventory')
-      .then(res => res.json())
-      .then(data => setCodeFiles(data.code || []));
-  }, []);
 
   const loadCode = (path) => {
     setActiveFile(path);
     setContent('Loading...');
-    fetch(`/api/file?path=${encodeURIComponent(path)}`)
+    fetch(`/raw/${encodeURIComponent(path)}`)
       .then(res => res.text())
       .then(text => setContent(text))
       .catch(err => setContent(`Error loading code: ${err.message}`));

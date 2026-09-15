@@ -1,19 +1,10 @@
 {
-  "buildCommand": "npm run install-all && cd dashboard && npm run build",
+  "buildCommand": "npm run install-all && cd dashboard && node generate-static-data.js && npm run build",
   "outputDirectory": "dashboard/dist",
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/index.js"
-    },
-    {
-      "source": "/raw/(.*)",
-      "destination": "/api/index.js"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
-  ],
-  "functions": {
-    "api/**/*.js": {
-      "includeFiles": "{reports,documentation,experiments,figures,literature,results,code}/**"
-    }
-  }
+  ]
 }

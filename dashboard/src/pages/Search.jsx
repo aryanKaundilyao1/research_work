@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search as SearchIcon, FileText, Code2, Loader2 } from 'lucide-react';
+import { inventory, manuscriptContent } from '../generated/staticData';
 
 const Search = () => {
   const [query, setQuery] = useState('');
@@ -13,15 +14,52 @@ const Search = () => {
     
     setIsSearching(true);
     setSearched(true);
-    try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-      const data = await res.json();
-      setResults(data);
-    } catch (err) {
-      console.error(err);
-    } finally {
+    
+    // Simulate search locally
+    setTimeout(() => {
+      const q = query.toLowerCase();
+      const newResults = [];
+      
+      // Search file names in inventory
+      const allFiles = [
+        ...(inventory.manuscript || []),
+        ...(inventory.pdf || []),
+        ...(inventory.figures || []),
+        ...(inventory.tables || []),
+        ...(inventory.code || []),
+        ...(inventory.audit || []),
+        ...(inventory.other || [])
+      ];
+
+      allFiles.forEach(file => {
+        if (file.toLowerCase().includes(q)) {
+          newResults.push({
+            path: file,
+            matches: [{ lineNum: '-', content: 'Matched filename: ' + file.split('/').pop() }]
+          });
+        }
+      });
+      
+      // Search in manuscript content
+      if (manuscriptContent) {
+        const lines = manuscriptContent.split('\n');
+        const matches = [];
+        lines.forEach((line, idx) => {
+          if (line.toLowerCase().includes(q)) {
+            matches.push({ lineNum: idx + 1, content: line.trim() });
+          }
+        });
+        if (matches.length > 0) {
+          newResults.push({
+            path: 'reports/FINAL_MANUSCRIPT_MASTER.md',
+            matches: matches.slice(0, 10) // Limit matches visually
+          });
+        }
+      }
+      
+      setResults(newResults);
       setIsSearching(false);
-    }
+    }, 200);
   };
 
   const getFileIcon = (path) => {

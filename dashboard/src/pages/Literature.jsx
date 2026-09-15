@@ -1,16 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { FileText, Search } from 'lucide-react';
+import React, { useState } from 'react';
+import { FileText, Search, BookOpen } from 'lucide-react';
+import { inventory } from '../generated/staticData';
 
 const Literature = () => {
-  const [pdfs, setPdfs] = useState([]);
+  const pdfs = inventory.pdf || [];
   const [activePdf, setActivePdf] = useState(null);
   const [search, setSearch] = useState('');
-
-  useEffect(() => {
-    fetch('/api/inventory')
-      .then(res => res.json())
-      .then(data => setPdfs(data.pdf || []));
-  }, []);
 
   const filteredPdfs = pdfs.filter(p => p.toLowerCase().includes(search.toLowerCase()));
 
@@ -70,5 +65,4 @@ const Literature = () => {
   );
 };
 
-import { BookOpen } from 'lucide-react';
 export default Literature;

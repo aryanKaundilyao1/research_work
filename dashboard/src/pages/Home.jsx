@@ -1,30 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { FileText, BookOpen, Image, Table2, Code2, ShieldCheck, FileQuestion } from 'lucide-react';
+import { inventory } from '../generated/staticData';
 
 const Home = () => {
-  const [inventory, setInventory] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    fetch('/api/inventory')
-      .then(res => {
-        if (!res.ok) throw new Error('Network response was not ok');
-        return res.json();
-      })
-      .then(data => {
-        setInventory(data);
-        setLoading(false);
-      })
-      .catch(err => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, []);
-
-  if (loading) return <div className="text-slate-500">Loading project inventory...</div>;
-  if (error) return <div className="text-red-500">Error: {error}</div>;
-
   const stats = [
     { label: 'Manuscript Drafts', count: inventory.manuscript.length, icon: FileText, color: 'text-blue-500', bg: 'bg-blue-100' },
     { label: 'Literature & PDFs', count: inventory.pdf.length, icon: BookOpen, color: 'text-purple-500', bg: 'bg-purple-100' },

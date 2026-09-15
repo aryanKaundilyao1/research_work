@@ -1,21 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Table2, FileText } from 'lucide-react';
+import { inventory } from '../generated/staticData';
 
 const Tables = () => {
-  const [tables, setTables] = useState([]);
+  const tables = inventory.tables || [];
   const [activeTable, setActiveTable] = useState(null);
   const [content, setContent] = useState('Select a table to view contents.');
-
-  useEffect(() => {
-    fetch('/api/inventory')
-      .then(res => res.json())
-      .then(data => setTables(data.tables || []));
-  }, []);
 
   const loadTable = (path) => {
     setActiveTable(path);
     setContent('Loading...');
-    fetch(`/api/file?path=${encodeURIComponent(path)}`)
+    fetch(`/raw/${encodeURIComponent(path)}`)
       .then(res => res.text())
       .then(text => setContent(text))
       .catch(err => setContent(`Error loading table: ${err.message}`));

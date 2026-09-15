@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"node server.js\" \"vite\"",
-    "build": "vite build",
+    "dev": "node generate-static-data.js && concurrently \"node server.js\" \"vite\"",
+    "build": "node generate-static-data.js && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

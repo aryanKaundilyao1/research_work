@@ -1,5 +1,6 @@
 import React from 'react';
-import { ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, CheckCircle2, AlertCircle } from 'lucide-react';
+import { conflicts } from '../generated/staticData';
 
 const AuditCenter = () => {
   const audits = [
@@ -73,6 +74,38 @@ const AuditCenter = () => {
         </div>
 
       </div>
+
+      {conflicts && conflicts.length > 0 && (
+        <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mt-8">
+          <div className="bg-slate-50 border-b border-slate-200 p-4 flex items-center gap-2">
+            <AlertCircle className="text-amber-500" />
+            <h3 className="font-bold text-slate-800">Detected Conflicts</h3>
+          </div>
+          <div className="p-4 overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-slate-200 text-slate-600">
+                  <th className="py-2 px-4 font-medium">Path</th>
+                  <th className="py-2 px-4 font-medium">Line</th>
+                  <th className="py-2 px-4 font-medium">Term</th>
+                  <th className="py-2 px-4 font-medium">Issue</th>
+                </tr>
+              </thead>
+              <tbody>
+                {conflicts.map((c, i) => (
+                  <tr key={i} className="border-b border-slate-100 last:border-0">
+                    <td className="py-3 px-4 text-slate-500 font-mono text-xs">{c.path}</td>
+                    <td className="py-3 px-4 text-slate-900">{c.lineNum}</td>
+                    <td className="py-3 px-4 font-medium text-slate-800">{c.term}</td>
+                    <td className="py-3 px-4 text-slate-600">{c.issue}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 };
