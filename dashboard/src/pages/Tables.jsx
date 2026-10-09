@@ -10,7 +10,7 @@ const Tables = () => {
   const loadTable = (path) => {
     setActiveTable(path);
     setContent('Loading...');
-    fetch(`/raw/${encodeURIComponent(path)}`)
+    fetch(`/raw/${path.split('/').map(encodeURIComponent).join('/')}`)
       .then(res => res.text())
       .then(text => setContent(text))
       .catch(err => setContent(`Error loading table: ${err.message}`));

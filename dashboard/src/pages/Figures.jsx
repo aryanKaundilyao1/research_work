@@ -20,7 +20,7 @@ const Figures = () => {
             onClick={() => setSelectedImage(figPath)}
           >
             <div className="h-48 bg-slate-100 flex items-center justify-center p-2">
-              <img src={`/raw/${figPath}`} alt="Figure thumbnail" className="max-h-full max-w-full object-contain" />
+              <img src={`/raw/${figPath.split('/').map(encodeURIComponent).join('/')}`} alt="Figure thumbnail" className="max-h-full max-w-full object-contain" />
             </div>
             <div className="p-3 border-t border-slate-100">
               <p className="text-sm font-medium text-slate-700 truncate" title={figPath.split('/').pop()}>
@@ -45,7 +45,7 @@ const Figures = () => {
               <button onClick={() => setSelectedImage(null)} className="text-slate-500 hover:text-slate-800 font-bold px-2 py-1 bg-slate-200 rounded">Close</button>
             </div>
             <div className="flex-1 overflow-auto p-4 flex justify-center bg-slate-100">
-              <img src={`/raw/${selectedImage}`} alt="Full Figure" className="max-w-full object-contain" />
+              <img src={`/raw/${selectedImage.split('/').map(encodeURIComponent).join('/')}`} alt="Full Figure" className="max-w-full object-contain" />
             </div>
           </div>
         </div>

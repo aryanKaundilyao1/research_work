@@ -12,7 +12,7 @@ const CodeViewer = () => {
   const loadCode = (path) => {
     setActiveFile(path);
     setContent('Loading...');
-    fetch(`/raw/${encodeURIComponent(path)}`)
+    fetch(`/raw/${path.split('/').map(encodeURIComponent).join('/')}`)
       .then(res => res.text())
       .then(text => setContent(text))
       .catch(err => setContent(`Error loading code: ${err.message}`));

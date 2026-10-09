@@ -50,7 +50,7 @@ const Literature = () => {
       <div className="flex-1 bg-slate-200 flex flex-col relative">
         {activePdf ? (
           <iframe 
-            src={`/raw/${activePdf}`}
+            src={`/raw/${activePdf.split('/').map(encodeURIComponent).join('/')}`}
             className="w-full h-full border-none"
             title="PDF Viewer"
           />
