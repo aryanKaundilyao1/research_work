@@ -7,7 +7,7 @@ const Results = () => {
     { name: 'Internal WESAD LOSO-CV', auc: 0.964, color: '#3b82f6' }, 
     { name: 'External Absolute Transfer (with ACC)', auc: 0.423, color: '#ef4444' }, 
     { name: 'External ACC Ablation', auc: 0.540, color: '#f59e0b' }, 
-    { name: 'External Baseline-Relative', auc: 1.000, color: '#10b981' }, 
+    { name: 'External Baseline-Relative', auc: 0.739, color: '#10b981' }, 
   ];
 
   return (
@@ -54,7 +54,7 @@ const Results = () => {
           <div className="space-y-4">
             <div className="p-4 bg-slate-50 rounded-lg border border-slate-100">
               <span className="block text-xs font-bold text-slate-400 uppercase">Bootstrap 95% CI</span>
-              <span className="text-lg font-mono font-bold text-slate-700">[1.000, 1.000]</span>
+              <span className="text-lg font-mono font-bold text-slate-700">[0.712, 0.765]</span>
             </div>
             <div className="p-4 bg-slate-50 rounded-lg border border-slate-100">
               <span className="block text-xs font-bold text-slate-400 uppercase">Permutation p-value</span>

@@ -20,7 +20,7 @@ const AuditCenter = () => {
     { k: "Internal AUC", v: "0.964" },
     { k: "Baseline-Relative AUC (Z-Score)", v: "0.739" },
     { k: "Median/IQR AUC", v: "0.751" },
-    { k: "External Absolute AUC", v: "0.408" },
+    { k: "External Absolute AUC", v: "0.423" },
     { k: "Cohen's d (ACC Shift)", v: "-1.47" },
     { k: "Bootstrap", v: "5000" },
     { k: "Permutation", v: "1000" },
