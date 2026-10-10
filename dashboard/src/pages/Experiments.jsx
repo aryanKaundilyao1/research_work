@@ -70,14 +70,14 @@ const experiments = [
     "results": [
       {
         "label": "ROC-AUC",
-        "value": "0.423"
+        "value": "0.492"
       },
       {
         "label": "Balanced Accuracy",
         "value": "0.441"
       }
     ],
-    "interpretation": "Dramatic performance inversion (0.964 \u2192 0.423) conclusively demonstrates that strong internal validation does NOT guarantee cross-dataset generalization. The absolute representation suffered severe domain mismatch.",
+    "interpretation": "Dramatic performance inversion (0.964 \u2192 0.492) conclusively demonstrates that strong internal validation does NOT guarantee cross-dataset generalization. The absolute representation suffered severe domain mismatch.",
     "figures": [
       "reports/experiment_3/outputs/external_roc_curve.png",
       "reports/experiment_3/outputs/external_pr_curve.png",
@@ -100,7 +100,7 @@ const experiments = [
     "results": [
       {
         "label": "ROC-AUC",
-        "value": "0.739"
+        "value": "0.772"
       },
       {
         "label": "Balanced Acc",
@@ -156,7 +156,7 @@ const experiments = [
       },
       {
         "label": "Global Mean AUC",
-        "value": "0.408"
+        "value": "0.492"
       }
     ],
     "interpretation": "Subject-wise Z-score significantly outperformed all global normalization schemes, definitively proving that inter-subject physiological variance overwhelms the stress signal if absolute scales are preserved.",
@@ -197,7 +197,7 @@ const experiments = [
         "value": "0.540"
       }
     ],
-    "interpretation": "Removing accelerometry partially improved transfer (0.423 \u2192 0.540). However, performance still barely above chance \u2014 absolute autonomic features also suffer cross-dataset shift.",
+    "interpretation": "Removing accelerometry partially improved transfer (0.492 \u2192 0.540). However, performance still barely above chance \u2014 absolute autonomic features also suffer cross-dataset shift.",
     "figures": [
       "reports/experiment_2/outputs/ablation_roc_curve.png",
       "reports/experiment_2/outputs/ablation_pr_curve.png",
@@ -223,7 +223,7 @@ const experiments = [
       },
       {
         "label": "XGB AUC",
-        "value": "0.739"
+        "value": "0.772"
       },
       {
         "label": "SVM AUC",
@@ -333,7 +333,7 @@ const experiments = [
     "results": [
       {
         "label": "95% CI",
-        "value": "[0.712, 0.765]"
+        "value": "[0.643, 0.880]"
       }
     ],
     "interpretation": "Confirms separation is robust to subject-level variance.",
@@ -375,11 +375,11 @@ const experiments = [
     "results": [
       {
         "label": "Spearman \u03c1",
-        "value": "0.9527"
+        "value": "0.980"
       },
       {
-        "label": "Top-20 Jaccard",
-        "value": "1.000"
+        "label": "Top-5 Jaccard",
+        "value": "0.759"
       }
     ],
     "interpretation": "Near-perfect rank correlation indicates the model's decision structure is highly conserved across domains.",

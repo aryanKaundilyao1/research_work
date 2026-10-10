@@ -17,7 +17,7 @@ def apply_strict_baseline_relative_transform(segments, calib_duration_sec=30, bu
     transformed = []
     audit_rows = []
     
-    subjects = list(set([s['subject_id'] for s in segments]))
+    subjects = sorted(list(set([s['subject_id'] for s in segments])))
     
     for subj in subjects:
         subj_segs = [s for s in segments if s['subject_id'] == subj]

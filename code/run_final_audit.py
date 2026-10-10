@@ -125,8 +125,9 @@ def main():
     eligible_rel = df_subj_rel[df_subj_rel['Eligible for macro AUROC?']]
     eligible_abs = df_subj_abs[df_subj_abs['Subject'].isin(eligible_rel['Subject'])] # match subjects
     
-    aucs_rel = eligible_rel['Subject AUROC'].values
-    aucs_abs = eligible_abs['Subject AUROC'].values
+    df_merged = eligible_rel.merge(eligible_abs, on='Subject', suffixes=('_rel', '_abs'))
+    aucs_rel = df_merged['Subject AUROC_rel'].values
+    aucs_abs = df_merged['Subject AUROC_abs'].values
     deltas = aucs_rel - aucs_abs
     mean_delta = np.mean(deltas)
     

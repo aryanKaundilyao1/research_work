@@ -1,0 +1,61 @@
+==================================================
+FINAL POST-HOC METRIC VALIDITY RESCUE RUN
+==================================================
+
+--- Subject-Aware Evaluation RELATIVE_30s ---
+Target Cohort N: 35
+Eligible N: 21
+Macro Subject AUROC: 0.7588 [95% CI: 0.6290, 0.8710]
+Median Subject AUROC: 0.8696
+
+--- Subject-Aware Evaluation ABSOLUTE_30s ---
+Target Cohort N: 35
+Eligible N: 35
+Macro Subject AUROC: 0.4213 [95% CI: 0.3357, 0.5056]
+Median Subject AUROC: 0.3803
+
+--- V1 vs V2 Protocol Analysis ---
+V1: N=18, Eligible N=18, Base Win=53, Stress Win=461
+  Macro AUROC = 0.7392 [95% CI: 0.5939, 0.8686]
+V2: N=17, Eligible N=3, Base Win=4, Stress Win=1008
+  Macro AUROC = 0.8770 [95% CI: 0.6479, 1.0000]
+
+==================================================
+15. FINAL OUTPUT
+==================================================
+Target cohort N = 35
+Subjects with both evaluation classes = 21
+Coverage = 21/35 = 60.0%
+Subjects with zero baseline evaluation windows = 14
+Baseline evaluation windows = 57
+Stress evaluation windows = 1469
+Median baseline windows per contributing subject = 3.0
+
+PRIMARY macro subject AUROC = 0.7588
+95% CI = [0.6290, 0.8710]
+Median subject AUROC = 0.8696
+IQR = 0.3542
+
+Corrected absolute macro AUROC = 0.4922
+Corrected relative macro AUROC = 0.7588
+Corrected delta = 0.2667
+Delta 95% CI = [0.1438, 0.3834]
+
+Balanced Accuracy = 0.6697
+MCC = 0.3294
+Sensitivity = 0.6608
+Specificity = 0.6786
+Brier = 0.2492
+ECE = N/A
+
+V1 AUROC = 0.7392
+V1 N = 18
+V2 AUROC = 0.8770
+V2 N = 17
+
+Canonical SHAP rho = 0.9985
+SHAP tau = 0.9889
+SHAP Top-5 Jaccard = 1.0000
+SHAP Top-10 Jaccard = 1.0000
+
+Calibration leakage: PASS
